@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<header>
+    <h1>📸 Muskan Gallery</h1>
+    <p>Professional Image Gallery | MCA Internship Project</p>
+</header>
+
+<!-- Filter Buttons -->
+
+<div class="filter-buttons">
+
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="tech">Animal</button>
+    <button data-filter="travel">City</button>
+
+</div>
+
+<!-- Gallery -->
+
+<div class="gallery">
+
+    <!-- Nature -->
+    <div class="image nature"><img src="images/1.jpeg"></div>
+    <div class="image nature"><img src="images/2.jpeg"></div>
+    <div class="image nature"><img src="images/3.jpeg"></div>
+    <div class="image nature"><img src="images/4.jpeg"></div>
+    <div class="image nature"><img src="images/5.jpeg"></div>
+    <div class="image nature"><img src="images/6.jpeg"></div>
+    <div class="image nature"><img src="images/7.jpeg"></div>
+    <div class="image nature"><img src="images/8.jpeg"></div>
+    <div class="image nature"><img src="images/9.jpeg"></div>
+
+    <!-- Technology -->
+    <div class="image tech"><img src="images/A.jpeg"></div>
+    <div class="image tech"><img src="images/A1.jpeg"></div>
+    <div class="image tech"><img src="images/A2.jpg"></div>
+    <div class="image tech"><img src="images/A3.jpg"></div>
+    <div class="image tech"><img src="images/A4.jpg"></div>
+    
+    <!-- Travel -->
+    <div class="image travel"><img src="images/c1.jpg"></div>
+    <div class="image travel"><img src="images/c2.jpg"></div>
+    <div class="image travel"><img src="images/c3.jpeg"></div>
+    <div class="image travel"><img src="images/c4.jpg"></div>
+    <div class="image travel"><img src="images/c5.jpg"></div>
+    
+
+</div>
+
+<!-- Lightbox -->
+
+<div class="lightbox">
+
+    <span class="close">&times;</span>
+
+    <img class="lightbox-img">
+
+    <div class="nav prev">
+        <i class="fa-solid fa-chevron-left"></i>
+    </div>
+
+    <div class="nav next">
+        <i class="fa-solid fa-chevron-right"></i>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+<!-- Lightbox -->
+
+<div id="lightbox">
+    <span id="close">&times;</span>
+    <img id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
